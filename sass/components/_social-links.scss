@@ -2,7 +2,11 @@
   @extend %list;
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: $margin-set;
+  }
 }
 
 .social-links__link {
@@ -39,8 +43,8 @@
 
 .social-links--center {
   @extend %list;
-  display: inline-flex;
-  align-items: center;
+  //display: inline-flex;
+  //align-items: center;
 }
 
 .social-links__link--theme-dark {
