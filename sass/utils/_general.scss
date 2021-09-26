@@ -8,6 +8,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -23,7 +27,8 @@ img {
   height: auto;
 }
 
-.container {
+.container,
+.container--center {
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
