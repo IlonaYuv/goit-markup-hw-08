@@ -178,15 +178,21 @@
             <h2 class="section__title">Чем мы занимаемся</h2>
             <ul class="examples list">
                 <li class="examples__item">
-                    <img src="./images/img1.jpg" alt="Веб разработка" width="370" height="294">
+                    <img src="./images/desktop/img1.jpg"
+                    srcset="./images/desktop/img1@2x.jpg" 
+                    alt="Веб разработка" width="370" height="294">
                     <h3 class="section__subtitle section__subtitle--light">Десктопные приложения</h3>
                 </li>
                 <li class="examples__item">
-                    <img src="./images/img2.jpg" alt="Разработка мобильных приложений" width="370" height="294">
+                    <img src="./images/desktop/img2.jpg"
+                    srcset="./images/desktop/img2@2x.jpg"  
+                    alt="Разработка мобильных приложений" width="370" height="294">
                     <h3 class="section__subtitle section__subtitle--light">Мобильные приложения</h3>
                 </li>
                 <li class="examples__item">
-                    <img src="./images/img3.jpg" alt="Графический дизайн" width="370" height="294">
+                    <img src="./images/desktop/img3.jpg"
+                    srcset="./images/desktop/img3@2x.jpg" 
+                    alt="Графический дизайн" width="370" height="294">
                     <h3 class="section__subtitle section__subtitle--light">Дизайнерские решения</h3>
                 </li>
             </ul>
@@ -199,7 +205,16 @@
             <h2 class="section__title">Наша команда</h2>
             <ul class="team list">
                 <li class="team__item">
-                    <img src="./images/img4.jpg" alt="Фотография Игоря Демьяненко" width="270" height="260">
+                    <!-- <img src="./images/img4.jpg" alt="Фотография Игоря Демьяненко" width="270" height="260"> -->
+                    <picture>
+                        <source srcset="./images/desktop/img4.jpg, ./images/desktop/img4@2x.jpg 2x" 
+                        media="(min-width: 1200px)">
+                        <source srcset="./images/tablet/img4.jpg, ./images/tablet/img4@2x.jpg 2x" 
+                        media="(min-width: 768px)">
+                        <source srcset="./images/mobile/img4.jpg, ./images/mobile/img4@2x.jpg 2x" 
+                        media="(min-width: 480px)">
+                        <img src="./images/mobile/img4.jpg" alt="Фотография Игоря Демьяненко">
+                    </picture>
                     <h3 class="team__name">Игорь Демьяненко</h3>
                     <p class="team__position">Product Designer</p>
                     <ul class="social-links list">
@@ -234,7 +249,16 @@
                     </ul>
                 </li>
                 <li class="team__item">
-                    <img src="./images/img5.jpg" alt="Фотография Ольги Репиной" width="270" height="260">
+                    <!-- <img src="./images/img5.jpg" alt="Фотография Ольги Репиной" width="270" height="260"> -->
+                    <picture>
+                        <source srcset="./images/desktop/img5.jpg, ./images/desktop/img5@2x.jpg 2x" 
+                        media="(min-width: 1200px)">
+                        <source srcset="./images/tablet/img5.jpg, ./images/tablet/img5@2x.jpg 2x" 
+                        media="(min-width: 768px)">
+                        <source srcset="./images/mobile/img5.jpg, ./images/mobile/img5@2x.jpg 2x" 
+                        media="(min-width: 480px)">
+                        <img src="./images/mobile/img5.jpg" alt="Фотография Ольги Репиной">
+                    </picture>
                     <h3 class="team__name">Ольга Репина</h3>
                     <p class="team__position">Frontend Developer</p>
                     <ul class="social-links list">
@@ -269,7 +293,16 @@
                     </ul>
                 </li>
                 <li class="team__item">
-                    <img src="./images/img6.jpg" alt="Фотография Николая Тарасова" width="270" height="260">
+                    <!-- <img src="./images/img6.jpg" alt="Фотография Николая Тарасова" width="270" height="260"> -->
+                    <picture>
+                        <source srcset="./images/desktop/img6.jpg, ./images/desktop/img6@2x.jpg 2x" 
+                        media="(min-width: 1200px)">
+                        <source srcset="./images/tablet/img6.jpg, ./images/tablet/img6@2x.jpg 2x" 
+                        media="(min-width: 768px)">
+                        <source srcset="./images/mobile/img6.jpg, ./images/mobile/img6@2x.jpg 2x" 
+                        media="(min-width: 480px)">
+                        <img src="./images/mobile/img6.jpg" alt="Фотография Николая Тарасова">
+                    </picture>
                     <h3 class="team__name">Николай Тарасов</h3>
                     <p class="team__position">Marketing</p>
                     <ul class="social-links list">
@@ -304,7 +337,16 @@
                     </ul>
                 </li>
                 <li class="team__item">
-                    <img src="./images/img7.jpg" alt="Фотография Михаила Ермакова" width="270" height="260">
+                    <!-- <img src="./images/img7.jpg" alt="Фотография Михаила Ермакова" width="270" height="260"> -->
+                    <picture>
+                        <source srcset="./images/desktop/img7.jpg, ./images/desktop/img7@2x.jpg 2x" 
+                        media="(min-width: 1200px)">
+                        <source srcset="./images/tablet/img7.jpg, ./images/tablet/img7@2x.jpg 2x" 
+                        media="(min-width: 768px)">
+                        <source srcset="./images/mobile/img7.jpg, ./images/mobile/img7@2x.jpg 2x" 
+                        media="(min-width: 480px)">
+                        <img src="./images/mobile/img7.jpg" alt="Фотография Михаила Ермакова">
+                    </picture>
                     <h3 class="team__name">Михаил Ермаков</h3>
                     <p class="team__position">UI Designer</p>
                     <ul class="social-links list">
