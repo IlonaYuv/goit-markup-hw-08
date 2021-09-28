@@ -86,7 +86,7 @@ img {
 .section__title {
   margin-bottom: 30px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
 }
@@ -94,6 +94,7 @@ img {
 @media screen and (min-width: 1200px) {
   .section__title {
     margin-bottom: 50px;
+    font-size: 36px;
   }
 }
 
@@ -715,6 +716,7 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  min-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -1396,6 +1398,10 @@ img {
 
 .button-list__item:not(:last-child) {
   margin-right: 8px;
+}
+
+.card-set {
+  min-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
