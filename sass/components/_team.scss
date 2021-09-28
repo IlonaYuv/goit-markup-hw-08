@@ -6,6 +6,7 @@
   @extend %list;
   display: flex;
   flex-wrap: wrap;
+  min-width: 100%;
 
   @media screen and (min-width: 768px) {
     margin-left: calc(-1 * #{$margin-set});
