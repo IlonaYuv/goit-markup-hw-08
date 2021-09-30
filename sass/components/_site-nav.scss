@@ -18,8 +18,19 @@
       color: $accent-color;
     }
   }
-  .site-nav-mobile__link--current:after {
-    display: none;
+
+  .site-nav-mobile__link--current {
+    color: $primary-text-color;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: $accent-color;
+
+    &:after {
+      display: none;
+    }
   }
 
   .site-nav-mobile__item:not(:last-child) {
