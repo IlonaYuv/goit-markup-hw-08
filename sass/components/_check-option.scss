@@ -34,6 +34,15 @@
     border-color: transparent;
     background-origin: border-box;
   }
+
+  @media screen and (max-width: 480px) {
+    height: 9px;
+
+    .modal-form__check-off:checked + & {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
 }
 
 .modal-form__policy {
