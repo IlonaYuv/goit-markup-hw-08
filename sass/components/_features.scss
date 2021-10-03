@@ -16,6 +16,8 @@
     width: calc(100% / 2 - #{$margin-set});
     margin-left: $margin-set;
     margin-bottom: $margin-set;
+
+    text-align: start;
   }
 
   @media screen and (min-width: 1200px) {
