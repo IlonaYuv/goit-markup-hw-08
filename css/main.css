@@ -483,7 +483,7 @@ img {
     margin-top: 44px;
   }
   .socials-mobile__link {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -1613,6 +1613,12 @@ img {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
+}
+
+@media screen and (max-width: 480px) {
+  .product__description {
+    font-size: 12px;
+  }
 }
 
 .product__meta {
