@@ -1411,6 +1411,16 @@ img {
   background-origin: border-box;
 }
 
+@media screen and (max-width: 480px) {
+  .modal-form__check-on {
+    height: 9px;
+  }
+  .modal-form__check-off:checked + .modal-form__check-on {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
 .modal-form__policy {
   color: #757575;
   font-size: 12px;
