@@ -44,7 +44,7 @@
   fill: $logo-modal-icon-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .modal__btn:hover & {
+  .modal__button:hover & {
     fill: $accent-color;
   }
 }
